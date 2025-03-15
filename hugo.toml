@@ -1,6 +1,24 @@
 baseURL = 'https://wurzerloesung.github.io'
-languageCode = 'en-us'
-title = 'RootBots'
 theme = 'risotto'
+title = 'RootBots'
+author = "FLL Team ROOTBOTS"
+copyright = "© [ROOTBOTS](https://wurzerloesung.github.io/RootbotsPage)"
+paginate = 3
+languageCode = 'en'
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
 
-sectionPagesMenu = 'main'
+ignoreErrors = true
+
+sectionPagesMenu = "main"
+
+[params]
+    noindex = false
+
+# Sidebar: about/bio
+[params.about]
+title = "ROOTBOTS"
+description = "FLL Team since 2012"
+
+[Permalinks]
+    post = "/:filename/"
