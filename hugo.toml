@@ -3,7 +3,6 @@ theme = 'risotto'
 title = 'RootBots'
 author = "FLL Team ROOTBOTS"
 copyright = "© [ROOTBOTS](https://wurzerloesung.github.io/RootbotsPage)"
-paginate = 3
 languageCode = 'en'
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -11,6 +10,10 @@ enableInlineShortcodes = true
 ignoreErrors = true
 
 sectionPagesMenu = "main"
+
+[pagination]
+pagerSize = 3
+
 
 [params]
     noindex = false
