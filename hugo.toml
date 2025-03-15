@@ -3,4 +3,4 @@ languageCode = 'en-us'
 title = 'RootBots'
 theme = 'risotto'
 
-
+sectionPagesMenu = 'main'
