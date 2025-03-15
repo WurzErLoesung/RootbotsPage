@@ -21,11 +21,11 @@ title = "ROOTBOTS"
 description = "FLL Team since 2012"
 
 [Permalinks]
-    post = "/:filename/"
-
+    posts = "/:filename/"
 [menu]
 
   [[menu.main]]
+
     identifier = "about"
     name = "About"
     url = "/about/"
@@ -48,3 +48,10 @@ unsafe = true
     startLevel = 2
     endLevel   = 3
     ordered    = true
+
+[sections]
+  [sections.post]
+    type = "posts"
+    id = "post"
+    title = "Meine Beiträge"
+    contents = ["research.md"]
