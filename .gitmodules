@@ -1,4 +1,3 @@
 [submodule "themes/risotto"]
 	path = themes/risotto
-    url = https://github.com/joeroe/risotto
-    branch = test
+    url = https://github.com/wurzerloesung/risotto
