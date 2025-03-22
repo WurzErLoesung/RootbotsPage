@@ -18,6 +18,11 @@ ignoreErrors = true
     languageCode = 'de-AT'
     languageName = 'de-AT'
     weight = 1
+  [languages.en]
+    contentDir = 'content/en'
+    languageCode = 'en-US'
+    languageName = 'en-US'
+    weight = 2
 
 [pagination]
 pagerSize = 3
