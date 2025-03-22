@@ -56,7 +56,7 @@ url = "mailto:rootbots@keimgasse.at"
 
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "de/about/"
     weight = 10
 
 [taxonomies]
