@@ -1,4 +1,4 @@
-baseURL = 'https://wurzerloesung.github.io/RootbotsPage/'
+baseURL = 'https://wurzerloesung.github.io'
 theme = 'risotto'
 title = 'RootBots'
 author = "FLL Team ROOTBOTS"
@@ -55,19 +55,19 @@ url = "mailto:rootbots@keimgasse.at"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/de/about/"
+    url = "about/"
     weight = 10
 
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/de/posts/"
+    url = "posts/"
     weight = 20
 
   [[menu.main]]
     identifier = "sponsoring"
     name = "Sponsoring"
-    url = "/de/sponsoring/"
+    url = "sponsoring/"
     weight = 30
 
 [taxonomies]
