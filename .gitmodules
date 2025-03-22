@@ -1,4 +1,9 @@
+
 [submodule "themes/risotto"]
 	path = themes/risotto
+<<<<<<< HEAD
 	url = https://github.com/joeroe/risotto.git
 
+=======
+	url = https://github.com/wurzerloesung/risotto.git
+>>>>>>> master
