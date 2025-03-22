@@ -10,7 +10,7 @@ enableInlineShortcodes = true
 
 ignoreErrors = true
 
-sectionPagesMenu = "main"
+#sectionPagesMenu = "main"
 
 [languages]
   [languages.de]
@@ -50,14 +50,25 @@ url = "mailto:rootbots@keimgasse.at"
 
 [Permalinks]
     posts = "/:filename/"
+
 [menu]
-
   [[menu.main]]
-
     identifier = "about"
     name = "About"
-    url = "de/about/"
+    url = "/de/about/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/de/posts/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "sponsoring"
+    name = "Sponsoring"
+    url = "/de/sponsoring/"
+    weight = 30
 
 [taxonomies]
 category = "categories"
