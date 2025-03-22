@@ -3,16 +3,31 @@ theme = 'risotto'
 title = 'RootBots'
 author = "FLL Team ROOTBOTS"
 copyright = "© [ROOTBOTS](https://wurzerloesung.github.io/RootbotsPage)"
-languageCode = 'en'
-DefaultContentLanguage = "en"
+languageCode = 'de'
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = true
 enableInlineShortcodes = true
 
 ignoreErrors = true
 
 sectionPagesMenu = "main"
 
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    languageCode = 'de-AT'
+    languageName = 'de-AT'
+    weight = 1
+
 [pagination]
 pagerSize = 3
+
+[imaging]
+  anchor = 'Smart'
+  bgColor = '#ffffff'
+  hint = 'photo'
+  quality = 75
+  resampleFilter = 'box'
 
 
 [params]
@@ -22,6 +37,16 @@ pagerSize = 3
 [params.about]
 title = "ROOTBOTS"
 description = "FLL Team since 2012"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-instagram"
+title = "Instagram"
+url = "https://www.instagram.com/rootbots_keimgasse/"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:rootbots@keimgasse.at"
 
 [Permalinks]
     posts = "/:filename/"
