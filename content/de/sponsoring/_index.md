@@ -5,7 +5,7 @@ title: Sponsoring
 In den letzten Jahren war unser Lego Wettbewerbs-Team bereits sehr erfolgreich und
 schaffte es drei Mal in Serie, am Finale der D-A-CH-Staaten teilzunehmen.
 In der vergangenen Saison schafften wir es sogar bis zum Weltfinale in Norwegen. Nach
-einem 1. Platz beim Regionalwettbewerb qualifizierten wir uns auch heuer erneut für das
+einem 1. Platz beim Regionalwettbewerb und einem 2. Platz beim Qualifikationswettbewerb qualifizierten wir uns auch heuer erneut für das
 D-A-CH-Finale. Unser Ziel ist es, auch dieses Jahr wieder ein Weltfinale zu erreichen.
 Allerdings müssen wir für unser Team regelmäßig Materialien zum Bau der
 Lego-Roboter, zur Umsetzung des Forschungsprojektes und auch für den
