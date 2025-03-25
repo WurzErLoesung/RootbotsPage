@@ -1,0 +1,22 @@
+.language-switcher select {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  transition: all 0.3s ease;
+}
+
+.language-switcher select:hover {
+  border-color: #888;
+}
+
+.language-switcher select:focus {
+  outline: none;
+  border-color: #666;
+}
+
