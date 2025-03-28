@@ -4,7 +4,9 @@
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <ul>
       {{ range .Pages }}  <!-- Lists notes inside the subfolder -->
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ if not .Params.hidden }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
       {{ end }}
     </ul>
   {{ end }}
